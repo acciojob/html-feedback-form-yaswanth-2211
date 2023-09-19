@@ -9,10 +9,14 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form>
-		<input type="text" placeholder="Name">
-		<input type="url" placeholder="Portfolio">
-		<input type="color" placeholder="Favorite Color">
-		<input type="range" placeholder="Likeness">
+		<label for="name">Name</label>
+		<input type="text" placeholder="Name" min="3" max="50" label="" id="name">
+		<label for="url">Portfolio</label>
+		<input type="url" placeholder="Portfolio" id="url" required>
+		<label for="color">Favorite Color</label>
+		<input type="color" placeholder="Favorite Color" id="color">
+		<label for="l">Likeness</label>
+		<input type="range" placeholder="Likeness" min="1" max="100" id="l">
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
